@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <link href='style.css' rel='stylesheet' type='text/css'>
+<script src="scroller.js"></script>
 <head>
     <meta charset="UTF-8">
     <title>Linux & GNU</title>
     <link rel="icon" type="image/x-icon" href="https://www.gnu.org/graphics/gnu-head-mini.png">
 </head>
-<body> <!--
-    <header>
-        <nav>
-            Atlas: 
-            <a href="index.html"> Introdução</a>
-            <a href="2.GNULINUX.html"> GNU/Linux</a>
-            <a href="3.OPENSOUCE.html"> Open-Source</a>
-            <a href="4.BENEFICIOS.html"> Benefícios</a>
-            <a href="5.CRITICAS.html"> Proprietário</a>
-            <a href="6.MICRSOFT.html"> Microsoft</a>
-            <a href="7.COMEАAR.html"> Começar</a>
-            <a href="8.CONTRIBUIR.html"> Contribuir</a>
-            <a href="9.DEBATE.html"> Debate</a>
-            <a href="10.RECURSOS.html"> Recursos</a>
-        </nav>
-    </header>-->
+<body>
+    <div class="header" id="myheader"><div style="display: table-row">
+        <div style="width: 700px; display: table-cell;"> Linux & GNU <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/072fa096-b852-4161-ae5d-8f42f037c051/d70w4xk-6b74188c-d5a1-44b1-ba16-8b70252e9ad7.png" style="height: 50px;"> </div>
+        <div style="display: table-cell;"><nav> <a href="index.html">Início</a> <a href="cont.html">História</a> <a href="distros.html">Distros</a> <a href="midia.html">Mídia</a></nav></div></div>
+    </div>
+    <div class="body">
     <h1>Linux & GNU <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/072fa096-b852-4161-ae5d-8f42f037c051/d70w4xk-6b74188c-d5a1-44b1-ba16-8b70252e9ad7.png" style="width: 100px;"></h1>
-    <h2>Informações sobre o trabalho</h2>
-        <p>Grupo: <big>𝕐</big> (João Matheus Oliveira Maciel Borges)<br>Turma: 2M1 - INT<br>Professor: Alexandro<br>Ferramentas de gerência: Trello (<a href="2024-09-10_22-46.png">Print</a>)<br>Ferramenta da desenvolvimento web: VSCodium & Github<br>Tema: Linux & GNU</p>
     <h2>Introdução</h2>
         <p>O projeto <b>Linux & GNU</b> é uma iniciativa escolar que busca apresentar, de forma rápida e acessível, a história do <b>Projeto GNU</b> e do <b>Kernel Linux</b>. Através deste projeto, pretendemos oferecer uma visão concisa e clara sobre o desenvolvimento desses elementos cruciais do software livre e do código aberto.</p>
-    <h2><a href="cont.html">Continuar a leitura!</a></h2>
-    <h2><a href="distros.html">Distribuições</a></h2>
-    <h2><a href="midia.html">Vídeos</a></h2>
-    <footer><a href="https://github.com/jmomb007/jmomb007.github.io">Código do site</a></footer>
+
+        <div id="carousel">
+          <figure id="spinner">
+            <img src="scrol1.webp" alt>
+            <img src="scrol2.jpg" alt>
+            <img src="scrol6.png" alt>
+            <img src="scrol4.jpeg" alt>
+            <img src="scrol5.png" alt>
+            <img src="scrol3.jpg" alt>
+            <img src="scrol7.jpg" alt>
+            <img src="scrol8.webp" alt>
+          </figure>
+        </div>
+        <span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
+        <span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+    
+    <h2><a href="cont.html" style="color: black;">Continuar a leitura!</a></h2>
+    </div>
+    <div class="footer"><a href="https://github.com/jmomb007/jmomb007.github.io">Código do site</a></div>
 </body>
 </html>
